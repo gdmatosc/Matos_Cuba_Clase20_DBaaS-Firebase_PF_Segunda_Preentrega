@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+
+	<link type="text/css" rel="stylesheet" href="/css/slick.css"/>
+	<link type="text/css" rel="stylesheet" href="/css/slick-theme.css"/>
+	<link type="text/css" rel="stylesheet" href="/css/nouislider.min.css"/>
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css"/>
+
+    <title>Productos</title>
+</head>
+
+<body>
+
+<header>
+
+    <!-- MAIN HEADER -->
+    <div id="header">
+        
+        <div class="container">
+           
+            <div class="row">
+                <!-- LOGO -->
+                <div class="col-md-3">
+                    <div class="header-logo">
+                        <a href="/index.html" class="logo">
+                            <img src="/img/logo_electro_te.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- /LOGO -->
+
+                <div class="col-md-3 clearfix">
+                    <div class="header-ctn">
+                       
+
+                        <!-- Cart class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"-->
+                        <div id="carrito" >
+                          
+                            <a href="/api/carrito">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Your Cart</span>
+                                <div class="qty" >
+                                    <div id="Resumen1">
+                                            
+                                    </div>
+                                </div>
+                            </a>
+                           
+                        <!-- /Cart -->
+                    </div>
+                </div>
+               
+            </div>
+           
+        </div>
+       
+    </div>
+    <!-- /MAIN HEADER -->
+</header>
+
+    <main>
+        
+        <h1 class="display-4 mt-4 text-center">Lista de Productos</h1>
+        <div class="container" id="lista-productos">
+            
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">MOUSE</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="/img/periferico_mouse.jpg" class="card-img-top_3img">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">10</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+    
+                            <li>COLOR NEGRO</li>
+                            <li>GARANTIA 5 MESES</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">AUDIFONO </h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="/img/periferico_audifono.jpg" class="card-img-top_3img">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">20</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            
+                            <li>COLOR NEGRO</li>
+                            <li>GARANTIA 5 MESES</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">CÁMARA WEB</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="/img/periferico_camara_externa_1.jpg" class="card-img-top_3img">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">40</span></h1>
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            
+                            <li>COLOR NEGRO</li>
+                            <li>GARANTIA 5 MESES</li>
+                        </ul>
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/sweetalert2.min.js"></script>
+    <script src="/js/producto_web.js"></script>
+    
+
+</body>
+
+</html>
